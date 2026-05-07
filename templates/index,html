@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My GCloud App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🚀 Welcome to My Cloud App</h1>
+
+        <p>This Python Flask UI App is deployed on Google Cloud.</p>
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
+
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Successfully Running on Google Cloud!");
+        }
+    </script>
+
+</body>
+</html>
